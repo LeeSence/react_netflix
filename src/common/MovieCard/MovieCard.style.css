@@ -34,18 +34,17 @@
   z-index: 2;
 }
 
-/* 반응형 스타일 */
 @media (max-width: 768px) {
   .movie-card {
-    width: 100px;
-    height: 150px;
+    width: 70px;
+    height: 105px;
   }
 }
 
 @media (max-width: 480px) {
   .movie-card {
-    width: 90px;
-    height: 135px;
+    width: 60px;
+    height: 90px;
   }
 
   .movie-card:hover {

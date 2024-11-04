@@ -11,27 +11,27 @@ export const responsive = {
   },
   smallDesktop: {
     breakpoint: { max: 1024, min: 768 },
-    items: 3,
+    items: 4,
     slidesToSlide: 2,
   },
   largeTablet: {
     breakpoint: { max: 768, min: 600 },
-    items: 3,
+    items: 4,
     slidesToSlide: 1,
   },
   tablet: {
     breakpoint: { max: 600, min: 480 },
-    items: 3,
+    items: 4,
     slidesToSlide: 1,
   },
   largeMobile: {
     breakpoint: { max: 480, min: 360 },
-    items: 3,
+    items: 4,
     slidesToSlide: 1,
   },
   mobile: {
     breakpoint: { max: 360, min: 0 },
-    items: 3,
+    items: 4,
     slidesToSlide: 1,
   },
 };
