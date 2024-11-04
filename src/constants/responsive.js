@@ -16,12 +16,12 @@ export const responsive = {
   },
   largeTablet: {
     breakpoint: { max: 768, min: 600 },
-    items: 4,
+    items: 3,
     slidesToSlide: 1,
   },
   tablet: {
     breakpoint: { max: 600, min: 480 },
-    items: 4,
+    items: 3,
     slidesToSlide: 1,
   },
   largeMobile: {

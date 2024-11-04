@@ -51,7 +51,7 @@
     height: 120px;
   }
   .movie-slider-title {
-    margin-bottom: 5px; /* 슬라이드 제목과 카드 사이 간격 더 줄이기 */
+    margin-bottom: 20px; /* 슬라이드 제목과 카드 사이 간격 더 줄이기 */
   }
   .movie-slider-container {
     gap: 8px; /* 카드 사이의 간격을 더 넓게 조정 */
