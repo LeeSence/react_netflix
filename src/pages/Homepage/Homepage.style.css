@@ -1,0 +1,10 @@
+.homepage-container {
+  padding: 20px;
+}
+
+/* 모바일 반응형 홈 컨테이너 스타일 */
+@media (max-width: 768px) {
+  .homepage-container {
+    padding: 10px;
+  }
+}

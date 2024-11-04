@@ -1,10 +1,11 @@
 .banner {
   height: 56vh;
-  background-position: left;
+  background-position: center;
   background-size: cover;
-  /* background-size: auto; */
   background-repeat: no-repeat;
+  position: relative;
 }
+
 .banner:before {
   content: "";
   background: linear-gradient(to top, black, transparent);
@@ -21,8 +22,30 @@
   justify-content: center;
   height: 100%;
   padding: 20px;
+  z-index: 1;
+  position: relative;
 }
 
 .banner-text-area > * {
   z-index: 2;
+}
+
+/* 모바일 반응형 배너 스타일 */
+@media (max-width: 768px) {
+  .banner {
+    height: 40vh;
+  }
+
+  .banner-text-area {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .banner-text-area h1 {
+    font-size: 1.8rem;
+  }
+
+  .banner-text-area p {
+    font-size: 1rem;
+  }
 }

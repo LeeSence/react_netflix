@@ -2,11 +2,21 @@
   overflow: hidden;
   height: 440px;
 }
-/* 
-@media (max-width: 480px) {
+
+/* 모바일 반응형 슬라이더 스타일 */
+@media (max-width: 768px) {
   .carousel-container {
-    height: 330px;
-    display: flex;
-    justify-content: space-between;
+    height: 300px; /* 모바일에서 슬라이더 높이 줄이기 */
   }
-} */
+}
+
+.movie-slider-item {
+  width: 160px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .movie-slider-item {
+    width: 120px;
+  }
+}
