@@ -1,0 +1,30 @@
+.review {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.review h5 {
+  color: #e50914;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.review p {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.review .btn-link {
+  padding: 0;
+  color: #cccccc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.review .btn-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}

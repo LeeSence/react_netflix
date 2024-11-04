@@ -1,0 +1,28 @@
+/* 추천 영화 스타일 */
+.recommended-movies {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  float: right;
+  width: 80%;
+}
+
+.recommended-movie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recommended-movie-poster {
+  width: 60px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.recommended-movie p {
+  color: #ffffff;
+  font-size: 0.9rem;
+}

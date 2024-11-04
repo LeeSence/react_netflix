@@ -1,0 +1,92 @@
+.movie-detail-container {
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-poster-container {
+  margin-bottom: 20px;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.movie-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trailer-button {
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: #e50914;
+  border: none;
+}
+
+.movie-detail-below {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+}
+
+.movie-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #e50914;
+}
+
+.movie-info {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.genre-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.genre-item {
+  background-color: #e50914;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.synopsis-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.synopsis-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cccccc;
+}
+
+.reviews-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  color: #cccccc;
+}
+
+.recommended-movies {
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  color: #ffffff;
+}
