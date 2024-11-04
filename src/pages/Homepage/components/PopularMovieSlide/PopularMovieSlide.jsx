@@ -14,7 +14,7 @@ const PopularMovieSlide = () => {
     return <Alert variant="danger">{error.message}</Alert>;
   }
   return (
-    <div>
+    <div style={{ marginTop: "20px" }}>
       <MovieSlider
         title="Top 20 영화"
         movies={data.results}
