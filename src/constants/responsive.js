@@ -26,12 +26,12 @@ export const responsive = {
   },
   largeMobile: {
     breakpoint: { max: 480, min: 360 },
-    items: 4,
+    items: 3,
     slidesToSlide: 1,
   },
   mobile: {
     breakpoint: { max: 360, min: 0 },
-    items: 4,
+    items: 3,
     slidesToSlide: 1,
   },
 };
