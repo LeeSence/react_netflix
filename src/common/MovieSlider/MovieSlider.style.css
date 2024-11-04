@@ -1,12 +1,13 @@
 .carousel-container {
   overflow: hidden;
   height: 440px;
+  padding: 20px 0;
 }
 
-/* 모바일 반응형 슬라이더 스타일 */
 @media (max-width: 768px) {
   .carousel-container {
-    height: 300px; /* 모바일에서 슬라이더 높이 줄이기 */
+    height: 300px;
+    padding: 10px 0;
   }
 }
 
@@ -18,5 +19,13 @@
 @media (max-width: 768px) {
   .movie-slider-item {
     width: 120px;
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .movie-slider-item {
+    width: 80px;
+    margin-right: 5px;
   }
 }

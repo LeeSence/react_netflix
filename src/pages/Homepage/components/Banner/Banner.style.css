@@ -30,7 +30,6 @@
   z-index: 2;
 }
 
-/* 모바일 반응형 배너 스타일 */
 @media (max-width: 768px) {
   .banner {
     height: 40vh;
